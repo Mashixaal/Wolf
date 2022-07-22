@@ -1,0 +1,156 @@
+/* background */
+
+.bg-night-100 {
+    background-image: url(../img/night.jpg);
+  }
+  
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  
+  .bg-cover {
+    background-size: cover;
+  }
+  
+  .bg-night-200 {
+    background-image: url(../img/night.jpg);
+  }
+  
+  .bg-orange-200 {
+    background-color: rgb(254 215 170);
+  }
+  
+  /* text-color */
+  
+  .text-white {
+    color: rgb(255 255 255);
+  }
+  
+  /* text-size */
+  
+  .text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  /* flex */
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-self-end {
+    justify-self: end;
+  }
+  
+  /* grid */
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+  
+  .col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+  
+  /* margin */
+  
+  .m-0 {
+    margin: 0rem;
+  }
+  
+  .mt-8 {
+    margin-top: 2rem;
+  }
+  
+  .m-8 {
+    margin: 2rem;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0rem;
+  }
+  
+  .mt-14 {
+    margin-top: 3.5rem;
+  }
+  
+  .mt-96 {
+    margin-top: 24rem;
+  }
+  
+  /* padding */
+  
+  .pl-12 {
+    padding-left: 3rem;
+  }
+  
+  /* style */
+  
+  .list-none {
+    list-style-type: none;
+  }
+  
+  .no-underline {
+    text-decoration: none;
+  }
+  
+  .font-franklin {
+    font-family: "Franklin Gothic Medium";
+  }
+  
+  .rounded-3xl {
+    border-radius: 1.5rem;
+  }
+  
+  /* width & height or other commend size */
+  
+  .max-w-2xl {
+    max-width: 42rem;
+  }
+  
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  
+  .w-screen {
+    width: 100vw;
+  }
+  
+  /* Position */
+  
+  .absolute {
+    position: fixed;
+  }
+  
+  .bottom-0 {
+    bottom: 0;
+  }  
